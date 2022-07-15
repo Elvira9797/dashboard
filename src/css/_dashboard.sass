@@ -1,0 +1,209 @@
+h1
+	font-weight: 500
+	font-size: 24px
+	margin-bottom: 20px
+	margin: 0
+
+td
+	padding-top: 5px
+	&:first-of-type
+		padding-right: 35px
+	
+	&:nth-child(2)
+		color: $color-blue
+		padding-right: 20px
+
+ul
+	padding: 0 0 0 15px
+	color: #334D6E
+	li
+		margin-top: 5px
+		color: $color-orange
+		&:last-of-type
+			color: $color-green
+		span
+			color: #000000
+			span
+				color: $color-blue
+
+.width
+	margin: 20px 0 0 35px
+	padding-right: 30px
+	border-right: 1px solid #EBEFF2
+	&:last-of-type
+		border-right: none
+		padding-right: 0
+
+.dropdown-toggle::after
+	vertical-align: 0
+
+.dashboard__header
+	display: flex
+	justify-content: space-between
+	align-items: center
+	border-bottom: 1px solid #EBEFF2
+	padding-bottom: 20px
+	div
+		display: flex
+		align-items: center
+	a
+		text-decoration: none
+		color: #000000
+		font-weight: 500
+		font-size: 15px
+
+.dropdown-menu
+	text-align: end
+	left: -125px!important
+
+.dashboard__title
+	display: flex
+	align-items: center
+	justify-content: space-between
+	margin: 20px 0 
+
+.domains
+	display: flex
+	align-items: center
+	p
+		margin: 0
+		color: $color-blue
+		span
+			color: #6A707E
+
+.button
+	border: none
+	background: none
+	&:focus
+		outline: none
+
+.plus-btn
+	display: flex
+	align-items: center
+	justify-content: center
+	box-shadow: 4px 2px 12px -3px rgba(1,72,245,0.64)
+	width: 35px
+	height: 35px
+	background: #0148F5
+	border-radius: 4px
+	margin-left: 20px
+	color: #ffffff
+	font-size: 25px
+
+.logo
+	width: 25px
+	height: 25px
+	background-image: url('../images/serpens.svg')
+	background-size: cover
+	border-radius: 50%
+	margin-right: 10px
+
+.dashboard__column
+	display: flex
+
+tr
+	&:nth-child(1)
+		.circle
+			border: 2px solid #004BFF
+	&:nth-child(2)
+		.circle
+			border: 2px solid rgba(0, 75, 255, 0.75)
+	&:nth-child(3)
+		.circle
+			border: 2px solid rgba(0, 75, 255, 0.5)
+	&:nth-child(4)
+		.circle
+			border: 2px solid rgba(221, 76, 58, 0.5)
+
+.title
+	position: relative
+
+.circle
+	content: ''
+	position: absolute
+	top: 11px
+	left: -15px
+	width: 6px
+	height: 6px
+	background: white
+	border-radius: 50%
+	border: 2px solid red
+	&:first-of-type
+		border: 2px solid transparent
+
+.website-score
+	margin-left: 0
+
+.column-name
+	font-weight: 500
+	font-size: 11px
+	color: #818E9B
+	margin: 0
+
+.persent
+	display: flex
+	align-items: center
+	span
+		font-size: 15px
+	p
+		font-weight: 500
+		font-size: 56px
+		color: $color-green
+		margin: 0
+		span
+			font-size: 30px
+
+.up, .down
+	color: $color-green
+	font-weight: 500
+	font-size: 12px
+	margin-left: 35px
+	position: relative
+	margin-top: 25px
+	&::before
+		content: ''
+		position: absolute
+		left: -12px
+		bottom: 8px
+		border: 4px solid transparent
+		border-bottom: 4px solid $color-green
+
+.down
+	color: $color-red
+	&::before
+		left: -12px
+		bottom: 4px
+		border: 4px solid transparent
+		border-top: 4px solid $color-red
+
+.red
+	color: $color-red
+
+.orange
+	color: $color-orange
+
+.light-blue
+	color: #26b1f3
+
+.margin
+	margin: 25px 0 0 15px
+
+.last-changes
+	p
+		font-size: 10px
+		color: #707683
+		margin-top: 30px
+
+.grafic
+	margin-top: 10px 
+	margin-left: -20px
+	width: 300px
+
+.traffic-grafic
+	margin-top: 30px 
+	width: 370px
+
+
+
+
+
